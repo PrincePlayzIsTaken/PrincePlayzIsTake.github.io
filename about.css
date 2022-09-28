@@ -6,7 +6,7 @@
   font-family: 'Poppins', sans-serif;
 }
 body{
-  min-height: 100vh;
+  min-height: 50vh;
   background: #E3F2FD;
 }
 body, .container, .video-controls, .video-timer, .options{
@@ -15,10 +15,10 @@ body, .container, .video-controls, .video-timer, .options{
   justify-content: center;
 }
 .container{
-  width: 98%;
+  width: 50%;
   user-select: none;
   overflow: hidden;
-  max-width: 900px;
+  max-width: 100px;
   border-radius: 5px;
   background: #000;
   aspect-ratio: 16 / 9;
@@ -28,14 +28,14 @@ body, .container, .video-controls, .video-timer, .options{
 .container.fullscreen{
   max-width: 100%;
   width: 100%;
-  height: 100vh;
+  height: 50vh;
   border-radius: 0px;
 }
 .wrapper{
   position: absolute;
   left: 0;
   right: 0;
-  z-index: 1;
+  z-index: 2;
   opacity: 0;
   bottom: -15px;
   transition: all 0.08s ease;
