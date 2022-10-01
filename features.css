@@ -1,3 +1,4 @@
+/* Import Google font - Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 *{
   margin: 0;
@@ -15,10 +16,10 @@ body, .container, .video-controls, .video-timer, .options{
   justify-content: center;
 }
 .container{
-  width: 100%;
+  width: 98%;
   user-select: none;
   overflow: hidden;
-  max-width: 100px;
+  max-width: 900px;
   border-radius: 5px;
   background: #000;
   aspect-ratio: 16 / 9;
@@ -194,6 +195,7 @@ body, .container, .video-controls, .video-timer, .options{
 .container video{
   width: 100%;
 }
+
 @media screen and (max-width: 540px) {
   .wrapper .video-controls{
     padding: 3px 10px 7px;
