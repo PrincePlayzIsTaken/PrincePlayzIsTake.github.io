@@ -250,8 +250,7 @@ nav .content .links{
   font-family: 'Poppins', sans-serif;
 }
 body{
-  min-height: 200vh;
-  background: #E3F2FD;
+  min-height: 100vh;
 }
 body, .container, .video-controls, .video-timer, .options{
   display: flex;
